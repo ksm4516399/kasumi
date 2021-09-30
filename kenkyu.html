@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="shift_jis">
+	<!-- scrollTop
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script> -->
+	<!--lazyload-->
+	<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script>
+	<!--accordion-->
+	<script type="text/javascript">
+		$(function () {
+			$('.inner').hide();
+			$('.bf2').click(function () {
+				$('.bf2').not(this).next('.inner').hide('fast');
+				$(this).next().slideToggle('fast');
+			});
+
+			$('.ac2').hover(
+				function () {
+					$('.bf2', this).addClass('hover');
+				},
+				function () {
+					$('.bf2', this).removeClass('hover');
+				}
+			);
+		});
+	</script>
+	<meta name="viewport" content="width = device-width,initial-scale=1">
+	<meta name="description" content="習志野市立香澄小学校,道徳研究のページ">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="theme-color" content="#000000" />
+	<meta name="msapplication-navbutton-color" content="#-000000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="canonical" href="http://www.nkc.city.narashino.chiba.jp/kasumi/kenkyu.html" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="kousyou.jpg" decoding="async" type="image/vnd.microsoft.icon">
+	<title>香澄小道徳研究</title>
+</head>
+
+<body id="wrap">
+	<!--ヘッダ-->
+	<div id="contents">
+		<header>
+			<h1 class="bf3">令和3年度 習志野市立 香澄小学校 道徳研究</h1>
+			<p class="ru"><a href="http://www.nkc.city.narashino.chiba.jp/kasumi/">Top page に戻る</a></p>
+			<hr>
+		</header>
+		<p>
+			令和３年１０月１３日（水）から１１月５日（金）まで WEB開催 公開研究会参加を希望される方はこちらからお申し込み下さい。申込み締切は１０月２９日です。<br>
+			<b>
+				<a class="m0a" href="https://forms.office.com/Pages/ResponsePage.aspx?id=oQNksFdzG0y_3OLlt4HjkFtoAcnsM0BMgoTVOyD-zhpUQjVYSFdOM1ExNVlXMDFDODFBVURKNFREMy4u">公開参加申込みフォーム
+			</b>
+		</p>
+		<iframe width="790" height="1150" src="kn\r03_panf.pdf" title="Ｒ３パンフレット"></iframe><br>
+
+		<footer>
+			<hr>
+			<p class="mid bbb">
+				&#169; Narashino City Kasumi E.S.
+			</p>
+		</footer>
+	</div>
+
+	<!-- scrollTop
+	<p id="page-top"><a href="#wrap">▲</a></p>
+	<script>
+		$(function () {
+			var topBtn = $('#page-top');
+			topBtn.hide();
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) {
+					topBtn.fadeIn();
+				} else {
+					topBtn.fadeOut();
+				}
+			});
+			topBtn.click(function () {
+				$('body,html').animate({
+					scrollTop: 0
+				}, 500);
+				return false;
+			});
+		});
+	</script> -->
+
+</body>
+
+</html>
